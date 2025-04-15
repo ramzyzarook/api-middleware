@@ -1,0 +1,5 @@
+# Inside the backend/.gitignore and frontend/.gitignore:
+node_modules/
+build/
+.env
+
