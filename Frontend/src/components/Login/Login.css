@@ -1,0 +1,80 @@
+/* Background with Transparency */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #000080, #000000); /* Dark blue to black gradient */
+    font-weight: bolder;
+    font-size: 18px;
+    color: white;
+    font-family: 'Lexend', sans-serif;
+}
+
+/* Login Box */
+.login-box {
+    background: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    width: 350px;
+    text-align: center;
+}
+
+/* Form Fields */
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #1e3a8a; /* Dark blue border */
+    background-color: #333; /* Dark background for input */
+    color: white;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #1e3a8a; /* Dark blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); /* Soft blue glow */
+}
+
+/* Submit Button */
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #1e3a8a; /* Dark blue */
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #000080; /* Darker blue */
+    color: white;
+}
+
+/* Link to Register */
+#login-p {
+    font-size: 15px;
+}
+
+#re-link {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#re-link:hover {
+    color: #1e3a8a; /* Dark blue on hover */
+}
+
+/* Error Message */
+.error-message {
+    color: rgb(230, 7, 7); /* Red for error */
+    font-size: 14px;
+    margin-bottom: 10px;
+}
